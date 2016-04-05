@@ -1,0 +1,24 @@
+@import "../../bower_components/reset-css/_reset.scss";
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic-ext);
+
+
+$Fnav: 'Indie Flower', cursive;
+$Ftext: 'Open Sans Condensed', sans-serif;
+
+$marginApp:15px;
+
+body{
+	background: #000;
+}
+.App{
+	display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: linear-gradient( to top left, #B8E8C7, #57C698, #3E9A8B, #2E7F82);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#2E7F82', endColorstr='#57C698');/*For IE7-8-9*/ 
+    margin: $marginApp;
+    width: calc(100%-$marginApp);
+}

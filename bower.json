@@ -1,0 +1,21 @@
+{
+  "name": "mi",
+  "description": "Portfolio MI",
+  "main": "index.html",
+  "authors": [
+    "MI"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/IhorMoroz/MI",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+      "reset-css": "latest"
+  }
+}
