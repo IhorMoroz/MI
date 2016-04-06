@@ -16,6 +16,7 @@
     "tests"
   ],
   "devDependencies": {
-      "reset-css": "latest"
+      "reset-css": "latest",
+      "flexibility": "latest"
   }
 }
