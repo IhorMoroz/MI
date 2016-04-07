@@ -5,18 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- <script src="js/jquery.min.js" charset="utf-8"></script> -->
 	<script src="js/flexibility.js" charset="utf-8"></script>
+	<script src="languages/languages.js" charset="utf-8"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
 	<div class="App">
 		<nav>
 		    <ul class="mainMenu">
-		        <li ><a href="#" class="links" data-menu="1">home</a></li>
-		        <li ><a href="#" class="links" data-menu="2">for employers</a></li>
-		        <li ><a href="#" class="links" data-menu="3">for clients</a></li>
-		        <li ><a href="#" class="links" data-menu="4">my works</a></li>
-		        <li ><a href="#" class="links" data-menu="5">contacts</a></li>
+		        <li ><a href="#" class="links ELEMLANG" data-slide="1" data-language="menu-home">home</a></li>
+		        <li ><a href="#" class="links ELEMLANG" data-slide="2" data-language="menu-employers">for employers</a></li>
+		        <li ><a href="#" class="links ELEMLANG" data-slide="3" data-language="menu-clients">for clients</a></li>
+		        <li ><a href="#" class="links ELEMLANG" data-slide="4" data-language="menu-works">my works</a></li>
+		        <li ><a href="#" class="links ELEMLANG" data-slide="5" data-language="menu-contacts">contacts</a></li>
 		    </ul>
 		    <ul class="smallMenu">
 		        <li><a href="#" data-link="smallMenu">MENU</a></li>
@@ -29,82 +31,64 @@
 		            <div class="logo"></div>
 		            <h1>ihor moroz</h1>
 		        </div>
-		        <div class="about textBox">
-		            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus
-		            nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae.
-		            Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		            Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum natus, aspernatur,
-		            deserunt omnis cumque obcaecati, rem eligendi debitis praesentium voluptatum iste enim!
+		        <div class="about textBox ELEMLANG" data-language="homeslide-text">
+
 		        </div>
 				<div class="space"></div>
 		    </div>
 		    <div class="slide two">
 				<div class="space"></div>
-		        <div class="quick textBox">
-		            <h3>Quick about me</h3>
+				<div class="box education textBox">
+		            <h3 class="ELEMLANG" data-language="employerslide-titleEducation">Education</h3>
 		            <ul>
-		                <li>adipisicing</li>
-		                <li>adipisicing</li>
-		                <li>adipisicing</li>
-		                <li>adipisicing</li>
-		                <li>adipisicing</li>
+		                <li class="ELEMLANG" data-language="employerslide-textEducation">
+
+		                </li>
 		            </ul>
 		        </div>
-		        <div class="aboutMain textBox">
-		            <h3>About me</h3>
-		            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus
-		            nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae.
-		            Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		            Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum na
-		            Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem lab
-		            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus
-		            nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae.
-		            Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		            Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum na
-		            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus
-		            nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae.
-		            Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		            Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum na
+		        <div class="box skills textBox">
+		            <h3 class="ELEMLANG" data-language="employerslide-titleSkills">Skills</h3>
+		            <p class="description ELEMLANG" data-language="employerslide-descSkills">
+
+		            </p>
+		            <ul>
+		                <li>HTML5</li>
+		                <li>CSS3 (Bootstrap3, SCSS)</li>
+		                <li>JS (AJAX, jQuery, Gulp)</li>
+		                <li>PHP 5.6-7 (Laravel5)</li>
+		                <li>SQL</li>
+						<li>GIT</li>
+		            </ul>
 		        </div>
 				<div class="space"></div>
 		    </div>
 		    <div class="slide three">
 				<div class="space"></div>
-		        <div class="box education textBox">
-		            <h3>Education</h3>
-		            <ul>
-		                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus
-		                nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae.
-		                Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		                Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum natus, aspernatur,
-		                deserunt omnis cumque obcaecati, rem eligendi debitis praesentium voluptatum iste enim!</li>
-		                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus
-		                nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae.
-		                Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		                Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum natus, aspernatur,
-		                deserunt omnis cumque obcaecati, rem eligendi debitis praesentium voluptatum iste enim!</li>
-		            </ul>
+				<div class="quick textBox">
+		            <h3 class="ELEMLANG" data-language="clientslide-titleSteps">steps develop</h3>
+		            <div class="boxStepsDevelop">
+		            	<div class="stepView"><span>1</span></div>
+						<p class="stepDesc ELEMLANG" data-language="clientslide-stepOne">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat</p>
+						<div class="stepView"><span>2</span></div>
+						<p class="stepDesc ELEMLANG" data-language="clientslide-stepTwo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat</p>
+						<div class="stepView"><span>3</span></div>
+						<p class="stepDesc ELEMLANG" data-language="clientslide-stepThree">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat</p>
+						<div class="stepView"><span>4</span></div>
+						<p class="stepDesc ELEMLANG" data-language="clientslide-stepFour">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat</p>
+		            </div>
 		        </div>
-		        <div class="box skills textBox">
-		            <h3>Skills</h3>
-		            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus
-		            nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae.
-		            Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		            Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum natus, aspernatur,
-		            deserunt omnis cumque obcaecati, rem eligendi debitis praesentium voluptatum iste enim!
-		            <ul>
-		                <li>Привіт</li>
-		                <li>debitis praesentium</li>
-		                <li>debitis praesentium</li>
-		                <li>debitis praesentium</li>
-		                <li>debitis praesentium</li>
-		                <li>debitis praesentium</li>
-		                <li>debitis praesentium</li>
-		                <li>debitis praesentium</li>
-		                <li>debitis praesentium</li>
-		                <li>debitis praesentium</li>
-		            </ul>
-		        </div>
+				<div class="textBox aboutDevelop">
+					<h3 class="ELEMLANG" data-language="clientslide-titleAboutOne">title1</h3>
+					<p class="ELEMLANG" data-language="clientslide-textAboutOne">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?</p>
+					<h3 class="ELEMLANG" data-language="clientslide-titleAboutTwo">title1</h3>
+					<p class="ELEMLANG" data-language="clientslide-textAboutTwo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?</p>
+					<h3 class="ELEMLANG" data-language="clientslide-titleAboutThree">title1</h3>
+					<p class="ELEMLANG" data-language="clientslide-textAboutThree">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?</p>
+					<h3 class="ELEMLANG" data-language="clientslide-titleAboutFour">title1</h3>
+					<p class="ELEMLANG" data-language="clientslide-textAboutFour">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?</p>
+					<h3 class="ELEMLANG" data-language="clientslide-titleAboutFive">title1</h3>
+					<p class="ELEMLANG" data-language="clientslide-textAboutFive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?</p>
+				</div>
 				<div class="space"></div>
 		    </div>
 		    <div class="slide four">
@@ -130,10 +114,10 @@
 		    </div>
 		</section>
 		<footer>
-			<div>
-				<a href="#">en</a>
-				<a href="#">ua</a>
-				<a href="#">ru</a>
+			<div class="lang">
+				<a href="#" data-lang="en">en</a>
+				<a href="#" data-lang="ua">ua</a>
+				<a href="#" data-lang="ru">ru</a>
 			</div>
 			<p>Moroz Ihor &copy 2016</p>
 		</footer>

@@ -46,8 +46,8 @@ $(document).ready(function(){
     nav.on('click', function(e){
          e.preventDefault();
          var target = e.target;
-         if($(target).attr('data-menu')){
-             var page = ($(target).attr('data-menu'));
+         if($(target).attr('data-slide')){
+             var page = ($(target).attr('data-slide'));
              removeFloatSlides();
              showCurrentSlide(page-1);
          }

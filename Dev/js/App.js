@@ -22,7 +22,7 @@ addEventListener('DOMContentLoaded', function(){
             var mainMenu = $(".mainMenu");
             mainMenu.toggle(TIME_ANIMATION);
         }
-        if($(obj).attr('data-menu') && window.innerWidth <= 560){
+        if($(obj).attr('data-slide') && window.innerWidth <= 560){
              $(".mainMenu").hide(TIME_ANIMATION);
         }
     });
