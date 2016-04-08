@@ -2,19 +2,17 @@ var languages = {
     "ua" : {
         "menu" : {
             "home" : "домівка",
-            "employers" : "для роботодавців",
-            "clients" : "для клієнтів",
-            "works" : "мої роботи",
+            "wedo" : "що ми робимо",
+            "clients" : "як ми працюємо",
+            "works" : "наші роботи",
             "contacts" : "контакти"
         },
         "homeslide" : {
             "text" : "укр текст"
         },
-        "employerslide" : {
-            "titleEducation" : "освіта",
-            "textEducation" : "Одеський нац університет",
-            "titleSkills" : "навички",
-            "descSkills" : "коротко про навички"
+        "whatwedoslide" : {
+            "html" : "Ми розробляємо сайти візитки для представлення вашого бізнесу чи іншого виду діяльності",
+            "php" : "php"
         },
         "clientslide" : {
             "titleSteps" : "етапи розробки",
@@ -38,19 +36,17 @@ var languages = {
     "en" : {
         "menu" : {
             "home" : "home",
-            "employers" : "for employers",
-            "clients" : "for clients",
-            "works" : "my works",
+            "wedo" : "what we do",
+            "clients" : "how we work",
+            "works" : "our works",
             "contacts" : "contacts"
         },
         "homeslide" : {
             "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae. Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum natus, aspernatur, deserunt omnis cumque obcaecati"
         },
-        "employerslide" : {
-            "titleEducation" : "education",
-            "textEducation" : "National university from Odesa",
-            "titleSkills" : "skills",
-            "descSkills" : "quick about skills"
+        "whatwedoslide" : {
+            "html" : "we create one page webside",
+            "php" : "php"
         },
         "clientslide" : {
             "titleSteps" : "steps develop",
@@ -73,19 +69,17 @@ var languages = {
     "ru" : {
         "menu" : {
             "home" : "главная",
-            "employers" : "для работодателей",
-            "clients" : "для клиентов",
-            "works" : "мои работы",
+            "wedo" : "что мы делаем",
+            "clients" : "как мы работаем",
+            "works" : "наши работы",
             "contacts" : "контакты"
         },
         "homeslide" : {
             "text" : "рус текст"
         },
-        "employerslide" : {
-            "titleEducation" : "образование",
-            "textEducation" : "Одесский нвц университет",
-            "titleSkills" : "умения",
-            "descSkills" : "кратко про умения"
+        "whatwedoslide" : {
+            "html" : "Мы делаем сайти визитки для представления вашего бизнесу или иного рода деятельності",
+            "php" : "php"
         },
         "clientslide" : {
             "titleSteps" : "этапы разработки",

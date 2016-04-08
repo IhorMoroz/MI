@@ -197,7 +197,7 @@ section{
                 height: 240px;
                 border:2px solid #fff;
                 border-radius: 50%;
-                background: url("../img/tool.png") repeat;
+                background: url("../img/logoWhite512.png") repeat;
                 background-size: contain;
                 overflow: hidden;
                 margin: 20px;
@@ -205,8 +205,8 @@ section{
             h1{
                 text-align: center;
                 color:#fff;
-                font-family: $Ftext;
-				font-size: 25px;
+                font-family: $Fnav;
+				font-size: 35px;
 				text-transform: capitalize;
             }
         }
@@ -221,9 +221,20 @@ section{
         .box{
             width: 500px;
             height: auto;
-            li{
-                margin: 0px 0px 0px 10px;
-                list-style-type: circle;
+            .boxImg{
+                margin: 0 auto;
+                width: 100px;
+                height: 100px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            p{
+                display: block;
+                margin-bottom: 20px;
+                text-align: center;
             }
         }
     }
@@ -338,6 +349,7 @@ footer{
 	p{
 		font-weight: bold;
 		text-align: center;
+        letter-spacing: 2px;
 	}
 	div{
 		margin: 8px auto;
