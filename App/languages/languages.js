@@ -2,28 +2,32 @@ var languages = {
     "ua" : {
         "menu" : {
             "home" : "домівка",
-            "wedo" : "що ми робимо",
-            "clients" : "як ми працюємо",
-            "works" : "наші роботи",
+            "wedo" : "що я роблю",
+            "clients" : "як я працюю",
+            "works" : "мої роботи",
             "contacts" : "контакти"
         },
         "homeslide" : {
-            "text" : "укр текст"
+            "text" : "Якщо Ви бажаєте створити сайт для розкриття своїх ідей або вдалого просування бізнесу, то в цьому я зможу Вам допомогти. Разом ми визначимо ключові моменти, обговоримо пріорітети, які і стануть складовими концепції Вашого майбутнього сайту."
         },
         "whatwedoslide" : {
-            "html" : "Ми розробляємо сайти візитки для представлення вашого бізнесу чи іншого виду діяльності",
-            "php" : "php"
+            "titlepromosite" : "сайт візитка",
+            "descpromosite" : "Сайт на 1-8 сторінок, який містить інформацію про Вас, Вашу компанію чи Ваші послуги.",
+            "titlelandingsite" : "Landing page",
+            "desclandingsite" : "Це сайт рекламного характеру, який містить інформацию про послугу чи товар",
+            "titlecatalogsite" : "каталог",
+            "desccatalogsite" : "Сайт, який детально описує інформацію про продукцію компанії",
         },
         "clientslide" : {
             "titleSteps" : "етапи розробки",
-            "stepOne" : "етап перший",
-            "stepTwo" : "етап другий",
-            "stepThree" : "етап третій",
-            "stepFour" : "етап четвертий",
-            "titleAboutOne" : "заголовок 1",
-            "textAboutOne" : "текст заголовка 1",
-            "titleAboutTwo" : "заголовок 2",
-            "textAboutTwo" : "текст заголовка 2",
+            "stepOne" : "Формування технічного завдання (front-end, back-end)",
+            "stepTwo" : "Верстка макету сайту (оплата)",
+            "stepThree" : "Cтворення серверної частини сайту (оплата)",
+            "stepFour" : "Запуск проекту в інтеренті",
+            "titleAboutOne" : "Увага! Я не дезайнер.",
+            "textAboutOne" : "Я не роблю PSD макетів. Бажано щоб у Вас був дизайт сайту в PSD, це зекономить час і Вам, і мені. В іншому разі ми можемо вирішити цю проблему вашими побажаннями та моїм почуттям прекрасного :)",
+            "titleAboutTwo" : "Я не беру предоплату",
+            "textAboutTwo" : "Оплату Ви здійснюєте лише після архітектурних етапів розробки сайту. Тобто Ви здійснюєте часткову оплату піся другого етапу, коли верстка сайту повністю готова, та задовольняє умовам технічного завдання. Та повну оплату після закінчення третього етапу коли сайт повністю готовий. Лише після повної оплати, сайт потрапляє в інтернет.",
             "titleAboutThree" : "заголовок 3",
             "textAboutThree" : "текст заголовка 3",
             "titleAboutFour" : "заголовок 4",
@@ -36,17 +40,21 @@ var languages = {
     "en" : {
         "menu" : {
             "home" : "home",
-            "wedo" : "what we do",
-            "clients" : "how we work",
-            "works" : "our works",
+            "wedo" : "what i do",
+            "clients" : "how i work",
+            "works" : "my works",
             "contacts" : "contacts"
         },
         "homeslide" : {
             "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quaerat at neque accusamus nisi earum ipsa est possimus inventore, corrupti voluptates sint fugiat autem repudiandae. Suscipit quasi at repudiandae a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia perspiciatis alias aspernatur soluta dicta illo. Autem laborum natus, aspernatur, deserunt omnis cumque obcaecati"
         },
         "whatwedoslide" : {
-            "html" : "we create one page webside",
-            "php" : "php"
+            "titlepromosite" : "promo site",
+            "descpromosite" : "text about what it",
+            "titlelandingsite" : "Landing page",
+            "desclandingsite" : "about landing page",
+            "titlecatalogsite" : "catalog",
+            "desccatalogsite" : "about catalog",
         },
         "clientslide" : {
             "titleSteps" : "steps develop",
@@ -69,24 +77,28 @@ var languages = {
     "ru" : {
         "menu" : {
             "home" : "главная",
-            "wedo" : "что мы делаем",
-            "clients" : "как мы работаем",
-            "works" : "наши работы",
+            "wedo" : "что я делаю",
+            "clients" : "как я работаю",
+            "works" : "мои работы",
             "contacts" : "контакты"
         },
         "homeslide" : {
-            "text" : "рус текст"
+            "text" : "Если Вы хотите создать сайт для раскрытия своих идей или успешного продвижения бизнеса, то в этом я смогу Вам помочь. Вместе мы определим ключевые моменты, обсудим приоритеты, которые и станут составными концепции Вашего будущего сайта."
         },
         "whatwedoslide" : {
-            "html" : "Мы делаем сайти визитки для представления вашего бизнесу или иного рода деятельності",
-            "php" : "php"
+            "titlepromosite" : "сайт визитка",
+            "descpromosite" : "Сайт на 1-8 страниц, который содержит информацию о Вас, Вашей компании или Ваших услугах.",
+            "titlelandingsite" : "Landing page",
+            "desclandingsite" : "Это сайт рекламного характера, содержащий информацию об услуге или товаре",
+            "titlecatalogsite" : "каталог",
+            "desccatalogsite" : "Сайт, на котором содержится информация о продукции компании",
         },
         "clientslide" : {
             "titleSteps" : "этапы разработки",
-            "stepOne" : "этап первый",
-            "stepTwo" : "этап второй",
-            "stepThree" : "этап третий",
-            "stepFour" : "этап чётвертий",
+            "stepOne" : "Создание технического задания (front-end, back-end).",
+            "stepTwo" : "Верстка макета сайта (оплата)",
+            "stepThree" : "Создание серверной части сайта (оплата)",
+            "stepFour" : "Запуск проекта в интернете",
             "titleAboutOne" : "заглавие 1",
             "textAboutOne" : "текст заглавие 1",
             "titleAboutTwo" : "заглавие 2",
