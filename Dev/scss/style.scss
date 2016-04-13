@@ -288,12 +288,39 @@ section{
         flex-flow: row wrap;
         justify-content:center;
         .work{
+            position: relative;
 			display: inline-block;
             width: 200px;
-            height: 200px;
+            height: 150px;
             border-radius: 5px;
+            overflow: hidden;
             background: url("../img/back.png") repeat;
             margin: 20px;
+            .title{
+                position: absolute;
+                // display: block;
+                top:40%;
+                left:calc(50% - 70px);
+                width: 140px;
+                height: 50px;
+                text-align: center;
+                transition: all .3s;
+                p{
+                    color:#fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+            &:hover{
+                .title{
+                    top:-100%;
+                }
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
     }
     .five{

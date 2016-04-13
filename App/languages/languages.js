@@ -24,16 +24,16 @@ var languages = {
             "stepTwo" : "Верстка макету сайту (оплата)",
             "stepThree" : "Cтворення серверної частини сайту (оплата)",
             "stepFour" : "Запуск проекту в інтеренті",
-            "titleAboutOne" : "Увага! Я не дезайнер.",
-            "textAboutOne" : "Я не роблю PSD макетів. Бажано щоб у Вас був дизайт сайту в PSD, це зекономить час і Вам, і мені. В іншому разі ми можемо вирішити цю проблему вашими побажаннями та моїм почуттям прекрасного :)",
-            "titleAboutTwo" : "Я не беру предоплату",
-            "textAboutTwo" : "Оплату Ви здійснюєте лише після архітектурних етапів розробки сайту. Тобто Ви здійснюєте часткову оплату піся другого етапу, коли верстка сайту повністю готова, та задовольняє умовам технічного завдання. Та повну оплату після закінчення третього етапу коли сайт повністю готовий. Лише після повної оплати, сайт потрапляє в інтернет.",
-            "titleAboutThree" : "заголовок 3",
-            "textAboutThree" : "текст заголовка 3",
-            "titleAboutFour" : "заголовок 4",
-            "textAboutFour" : "текст заголовка 4",
-            "titleAboutFive" : "заголовок 5",
-            "textAboutFive" : "текст заголовка 5"
+            "titleAboutOne" : "Увага! Я не дизайнер.",
+            "textAboutOne" : "Я не роблю PSD макетів. Бажано, щоб у Вас був дизайн сайту в PSD. Це зекономить час і Вам, і мені, в іншому разі - ми зможемо вирішити цю проблему разом, обговоривши ваші побажання.",
+            "titleAboutTwo" : "Я не беру передоплату",
+            "textAboutTwo" : "Оплату Ви здійснюєте лише після архітектурних етапів розробки сайту, тобто, Ви здійснюєте часткову оплату піся другого етапу, коли верстка сайту повністю готова та відповідає умовам технічного завдання. Повну оплату здійснюєте після закінчення третього етапу, коли сайт повністю готовий. Лише після повної оплати сайт потрапляє на сервер.",
+            "titleAboutThree" : "Вартість послуг",
+            "textAboutThree" : "Вартість та тривалість розробки сайту визначаеться в залежності від складності технічного завдання та додаткових послуг.",
+            "titleAboutFour" : "",
+            "textAboutFour" : "",
+            "titleAboutFive" : "",
+            "textAboutFive" : ""
 
         }
     },
@@ -66,12 +66,12 @@ var languages = {
             "textAboutOne" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?",
             "titleAboutTwo" : "title 2",
             "textAboutTwo" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?",
-            "titleAboutThree" : "title 3",
-            "textAboutThree" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?",
-            "titleAboutFour" : "title 4",
-            "textAboutFour" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?",
-            "titleAboutFive" : "title 5",
-            "textAboutFive" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et, autem ut esse atque distinctio quidem, aspernatur omnis vel velit dolor ipsam reiciendis doloremque magni totam aliquam obcaecati, debitis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magnam, autem molestiae esse officiis error vero fuga odit corporis, enim accusantium quo eos dicta optio dignissimos, voluptatum, officia cum nam?"
+            "titleAboutThree" : "",
+            "textAboutThree" : "",
+            "titleAboutFour" : "",
+            "textAboutFour" : "",
+            "titleAboutFive" : "",
+            "textAboutFive" : ""
         }
     },
     "ru" : {
@@ -99,16 +99,16 @@ var languages = {
             "stepTwo" : "Верстка макета сайта (оплата)",
             "stepThree" : "Создание серверной части сайта (оплата)",
             "stepFour" : "Запуск проекта в интернете",
-            "titleAboutOne" : "заглавие 1",
-            "textAboutOne" : "текст заглавие 1",
-            "titleAboutTwo" : "заглавие 2",
-            "textAboutTwo" : "текст заглавие 2",
-            "titleAboutThree" : "заглавие 3",
-            "textAboutThree" : "текст заглавие 3",
-            "titleAboutFour" : "заглавие 4",
-            "textAboutFour" : "текст заглавие 4",
-            "titleAboutFive" : "заглавие 5",
-            "textAboutFive" : "текст заглавие 5"
+            "titleAboutOne" : "Внимание! Я не дизайнер.",
+            "textAboutOne" : "Я не делаю PSD макетов. Желательно, чтобы у Вас был дизайн сайта в PSD. Это сэкономит время и Вам, и мне. В инном случае мы сможем решить эту проблему вместе, обсудив ваши пожелания.",
+            "titleAboutTwo" : "Я не беру предоплату",
+            "textAboutTwo" : "Оплату Вы делаете только после архитектурных этапов розработки сайта, то есть, Вы делаете частичную оплату после второго этапа, когда верстка сайта полностью готова, и соответствует условиям технического задания. Полную оплату производите после окончания третьего этапа, когда сайт полностью готов. Только после полной оплаты сайт попадает на сервер.",
+            "titleAboutThree" : "стоимость услуг",
+            "textAboutThree" : "Стоимость и продолжительность разработки сайта определяется в зависимости от сложности технического задания и дополнительных услуг.",
+            "titleAboutFour" : "",
+            "textAboutFour" : "",
+            "titleAboutFive" : "",
+            "textAboutFive" : ""
         }
     }
 };
